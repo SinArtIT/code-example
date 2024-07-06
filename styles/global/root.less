@@ -1,0 +1,47 @@
+:root {
+  --apartments-gap: 18px;
+  --apartments-col-1: 100px;
+  --apartments-col-2: 162px;
+  --apartments-col-3: 92px;
+  --apartments-col-4: 90px;
+  --apartments-col-5: 310px;
+  --apartments-col-6: 56px;
+  --apartments-col-7: 74px;
+  --apartments-col-8: 150px;
+  --apartments-col-9: 72px;
+
+  --apartments-cell-padding: 4px 0;
+
+  --apartments-text-12: 12px;
+  --apartments-text-13: 13px;
+  --apartments-text-14: 14px;
+  --apartments-text-16: 16px;
+
+  --page-header-notification: 0px;
+  --app-mobile-notification-height: 0px;
+  --header-height: calc(@header_height + var(--app-mobile-notification-height) + var(--page-header-notification));
+
+  @media @mobile {
+    --header-height: calc(@header_height_600 + var(--app-mobile-notification-height) + var(--page-header-notification));;
+  }
+
+  @media @bw1400 {
+    --apartments-gap: 1.921%;
+    --apartments-col-1: 7.81%;
+    --apartments-col-2: 12.66%;
+    --apartments-col-3: 7.19%;
+    --apartments-col-4: 7.03%;
+    --apartments-col-5: 24.22%;
+    --apartments-col-6: 4.38%;
+    --apartments-col-7: 5.78%;
+    --apartments-col-8: 11.72%;
+    --apartments-col-9: 5.63%;
+
+    --apartments-cell-padding: 0.286vw 0;
+
+    --apartments-text-12: 0.8571vw;
+    --apartments-text-13: 0.9286vw;
+    --apartments-text-14: 1vw;
+    --apartments-text-16: 1.1429vw;
+  }
+}
